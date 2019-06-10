@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Spin360_Tests' do
+  pod 'Spin360', :path => '../'
+  
+  
+end

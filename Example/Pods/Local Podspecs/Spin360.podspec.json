@@ -1,0 +1,22 @@
+{
+  "name": "Spin360",
+  "version": "0.1.0",
+  "summary": "A short description of Spin360.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MadhuNunc/Spin360",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MadhuNunc": "madhusudhan.gadiraju@nuncsystems.com"
+  },
+  "source": {
+    "git": "https://github.com/MadhuNunc/Spin360.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Spin360/Classes/**/*"
+}

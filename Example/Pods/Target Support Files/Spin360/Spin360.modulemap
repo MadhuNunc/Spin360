@@ -1,0 +1,6 @@
+framework module Spin360 {
+  umbrella header "Spin360-umbrella.h"
+
+  export *
+  module * { export * }
+}
