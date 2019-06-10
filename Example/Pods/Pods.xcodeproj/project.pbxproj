@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28CCD67822AEC00900D674E6 /* CaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CCD67622AEC00900D674E6 /* CaptureViewController.m */; };
-		28CCD67922AEC00900D674E6 /* CaptureViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CCD67722AEC00900D674E6 /* CaptureViewController.h */; };
+		28CCD67C22AEC83000D674E6 /* CaptureViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CCD67A22AEC83000D674E6 /* CaptureViewController.h */; };
+		28CCD67D22AEC83000D674E6 /* CaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CCD67B22AEC83000D674E6 /* CaptureViewController.m */; };
 		3813EFDA00AEC5F8B99BF8E61FB525DC /* Spin360-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2888CF10F9393BFB2A0F4E853BB70E81 /* Spin360-dummy.m */; };
 		7FB4570A598DE67C965B3815C83FAFB4 /* Pods-Spin360_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E5D567A45066EA2E4C7AB79B0652C8 /* Pods-Spin360_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88CBF43419CD405CEF0D45009BF5CDE1 /* Spin360-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACE8824A3EAF623644C078F31E45F208 /* Spin360-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,8 +31,8 @@
 		11D9D58FE1C10A2FA7E72511AE8CBCC4 /* Spin360.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Spin360.xcconfig; sourceTree = "<group>"; };
 		22607F5A655FF6BE25C259131693423A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2888CF10F9393BFB2A0F4E853BB70E81 /* Spin360-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Spin360-dummy.m"; sourceTree = "<group>"; };
-		28CCD67622AEC00900D674E6 /* CaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CaptureViewController.m; path = ../Spin360/Classes/CaptureViewController.m; sourceTree = "<group>"; };
-		28CCD67722AEC00900D674E6 /* CaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaptureViewController.h; path = ../Spin360/Classes/CaptureViewController.h; sourceTree = "<group>"; };
+		28CCD67A22AEC83000D674E6 /* CaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaptureViewController.h; path = Spin360/Classes/CaptureViewController.h; sourceTree = "<group>"; };
+		28CCD67B22AEC83000D674E6 /* CaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CaptureViewController.m; path = Spin360/Classes/CaptureViewController.m; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		369ECB1ED9A9365E6DB571161AD9851A /* Pods-Spin360_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Spin360_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		467A041AECA4F99650155366162A505E /* Spin360-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Spin360-Info.plist"; sourceTree = "<group>"; };
@@ -74,15 +74,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28CCD66D22AEB80000D674E6 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				28CCD67722AEC00900D674E6 /* CaptureViewController.h */,
-				28CCD67622AEC00900D674E6 /* CaptureViewController.m */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
 		7B34F7B8A91789581B8E648AAAA3A83F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,7 +112,8 @@
 		AEAE8F89D57E29A41EC36F28894FA788 /* Spin360 */ = {
 			isa = PBXGroup;
 			children = (
-				28CCD66D22AEB80000D674E6 /* Core */,
+				28CCD67A22AEC83000D674E6 /* CaptureViewController.h */,
+				28CCD67B22AEC83000D674E6 /* CaptureViewController.m */,
 				7B34F7B8A91789581B8E648AAAA3A83F /* Pod */,
 				BAEF3C73AC9E6C3372A73BAECD1EAB69 /* Support Files */,
 			);
@@ -194,7 +186,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28CCD67922AEC00900D674E6 /* CaptureViewController.h in Headers */,
+				28CCD67C22AEC83000D674E6 /* CaptureViewController.h in Headers */,
 				88CBF43419CD405CEF0D45009BF5CDE1 /* Spin360-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,7 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3813EFDA00AEC5F8B99BF8E61FB525DC /* Spin360-dummy.m in Sources */,
-				28CCD67822AEC00900D674E6 /* CaptureViewController.m in Sources */,
+				28CCD67D22AEC83000D674E6 /* CaptureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
