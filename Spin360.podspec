@@ -30,7 +30,7 @@ s.source           = { :git => 'https://github.com/MadhuNunc/Spin360.git', :tag 
 
 s.ios.deployment_target = '10.0'
 
-s.source_files = 'Spin360/Classes/*.{h}'
+s.source_files = 'Spin360/Classes/**/*.{h}'
 
 # s.resource_bundles = {
 #   'Spin360' => ['Spin360/Assets/*.png']
