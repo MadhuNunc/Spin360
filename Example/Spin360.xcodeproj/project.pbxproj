@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5CEC1482DCBCB05215FC6951 /* Pods_Spin360_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD3859F103CA278C7809D25 /* Pods_Spin360_Tests.framework */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		8C84899A7E2C99B7EAEB4997 /* Pods_Spin360_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75980790DD5ECF9333D451F9 /* Pods_Spin360_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		09AD35D04DB67ACEB347CF0C /* Spin360.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Spin360.podspec; path = ../Spin360.podspec; sourceTree = "<group>"; };
-		26F0217328A3C8253DFBA59B /* Pods-Spin360_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spin360_Tests.release.xcconfig"; path = "Target Support Files/Pods-Spin360_Tests/Pods-Spin360_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5DD3859F103CA278C7809D25 /* Pods_Spin360_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spin360_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FC2601B7537C5D3F8D0DA3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4E69FF281E3C2772BA74A680 /* Pods-Spin360_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spin360_Tests.release.xcconfig"; path = "Target Support Files/Pods-Spin360_Tests/Pods-Spin360_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -28,9 +27,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		66AF4C491D258FF19DDC1DBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		AA08039F73AA05881A6F981E /* Pods-Spin360_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spin360_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Spin360_Tests/Pods-Spin360_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D09DF965349D067BF710824D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		75980790DD5ECF9333D451F9 /* Pods_Spin360_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spin360_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5A5104D7A5094E6BCE2290 /* Pods-Spin360_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spin360_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Spin360_Tests/Pods-Spin360_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A704F8C88BCE3B13BB0C574D /* Spin360.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Spin360.podspec; path = ../Spin360.podspec; sourceTree = "<group>"; };
+		F1E5D85D9D7DE35CE51BABF5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,23 +41,13 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				5CEC1482DCBCB05215FC6951 /* Pods_Spin360_Tests.framework in Frameworks */,
+				8C84899A7E2C99B7EAEB4997 /* Pods_Spin360_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A6655A001A9BDFC13F3F73F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AA08039F73AA05881A6F981E /* Pods-Spin360_Tests.debug.xcconfig */,
-				26F0217328A3C8253DFBA59B /* Pods-Spin360_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -65,7 +55,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				2A6655A001A9BDFC13F3F73F /* Pods */,
+				633AC0C8CDFFE967595F2598 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,7 +74,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				5DD3859F103CA278C7809D25 /* Pods_Spin360_Tests.framework */,
+				75980790DD5ECF9333D451F9 /* Pods_Spin360_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,11 +101,21 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				09AD35D04DB67ACEB347CF0C /* Spin360.podspec */,
-				66AF4C491D258FF19DDC1DBA /* README.md */,
-				D09DF965349D067BF710824D /* LICENSE */,
+				A704F8C88BCE3B13BB0C574D /* Spin360.podspec */,
+				F1E5D85D9D7DE35CE51BABF5 /* README.md */,
+				27FC2601B7537C5D3F8D0DA3 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		633AC0C8CDFFE967595F2598 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F5A5104D7A5094E6BCE2290 /* Pods-Spin360_Tests.debug.xcconfig */,
+				4E69FF281E3C2772BA74A680 /* Pods-Spin360_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,11 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Spin360_Tests" */;
 			buildPhases = (
-				DFFB0E31BFAFFB9BADB623B1 /* [CP] Check Pods Manifest.lock */,
+				EBF756531C78B909CDA8BFFB /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				0FF1E7BD8F97E46EAC8E90F3 /* [CP] Embed Pods Frameworks */,
+				1314D60E6FF2D43C94189A39 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,7 +185,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0FF1E7BD8F97E46EAC8E90F3 /* [CP] Embed Pods Frameworks */ = {
+		1314D60E6FF2D43C94189A39 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -203,7 +203,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Spin360_Tests/Pods-Spin360_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DFFB0E31BFAFFB9BADB623B1 /* [CP] Check Pods Manifest.lock */ = {
+		EBF756531C78B909CDA8BFFB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -325,7 +325,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA08039F73AA05881A6F981E /* Pods-Spin360_Tests.debug.xcconfig */;
+			baseConfigurationReference = 9F5A5104D7A5094E6BCE2290 /* Pods-Spin360_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -348,7 +348,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26F0217328A3C8253DFBA59B /* Pods-Spin360_Tests.release.xcconfig */;
+			baseConfigurationReference = 4E69FF281E3C2772BA74A680 /* Pods-Spin360_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
